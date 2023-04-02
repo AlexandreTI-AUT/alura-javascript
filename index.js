@@ -1,0 +1,6 @@
+const numeros = [43, 50, 65, 12];
+
+const soma = numeros.reduce((acc, atual) => {
+  return atual + acc;
+}, 0);
+console.log(soma); //170
